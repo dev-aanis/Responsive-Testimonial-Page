@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #D4D4D8;
+} */
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    padding: 100px;
+    /* background-color: green; */
+}
+.star{
+    position: relative;
+    top: 20%;
+    left: 22%;
+}
+/* .review-section{
+    width: 50%;
+    margin: auto 0;
+}
+.google-meta-logo{
+    width: 50%;
+    margin: auto 0;
+} */
+.greentik1{
+    display: flex;
+    margin-top: 30px;
+}
+.greentik2{
+    display: flex;
+    margin-top: 8px;
+}
+.greentik3{
+    display: flex;
+    margin-top: 8px;
+}
+.google-logo{
+    display: flex;
+}
+.meta-logo{
+    display: flex;
+}
+.google-logo img{
+    margin-right: 10px;
+}
+.meta-logo img{
+    margin-right: 10px;
+}
+.google-box{
+    position: relative;
+    left: 10%;
+    box-shadow: 3px 3px 15px #c4c4c4;
+}
+.meta-box{
+    position: relative;
+    top: 55px;
+    right: 40%;
+    box-shadow: 3px 3px 15px #c4c4c4;
+}
